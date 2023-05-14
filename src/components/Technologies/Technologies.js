@@ -1,5 +1,5 @@
 import React from "react";
-import { DiDatabase, DiFirebase, DiPython, DiReact, DiUikit, DiZend } from "react-icons/di";
+import { DiApple, DiDatabase, DiFirebase, DiPython, DiReact, DiUikit, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -33,6 +33,7 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
         <DiFirebase size="3rem" />
         <ListContainer>
@@ -43,6 +44,7 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
         <DiZend size="3rem" />
         <ListContainer>
@@ -52,13 +54,25 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
         <DiPython size="3rem" />
         <ListContainer>
           <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            ML libraries and Data Pipelines
+            Experience with ML libraries <br />
+            and Data Pipelines
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiApple size="3rem" />
+        <ListContainer>
+          <ListTitle>Mobile Development</ListTitle>
+          <ListParagraph>
+            Experience with app development <br />
+            on iOS and Android platforms
           </ListParagraph>
         </ListContainer>
       </ListItem>
