@@ -17,7 +17,7 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
+import { AboutMeDescription, TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -26,7 +26,13 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: "smooth" });
+    console.log(`node: ${node}`);
+    try {
+      node.scrollTo({ left, behavior: "smooth" });
+    } catch {
+      console.log("CAUGHT");
+      return null;
+    }
   };
 
   const handleClick = (e, i) => {
@@ -43,29 +49,30 @@ const Timeline = () => {
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round(
+        (carouselRef.current.scrollLeft /
+          (carouselRef.current.scrollWidth * 0.7)) *
+          TimeLineData.length
+      );
 
       setActiveItem(index);
     }
-  }
+  };
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-        I am currently a Senior at Duke University studying Computer Science and
-        Electrical/Computer Engineering.
-      </SectionText>
+      <SectionText>{AboutMeDescription}</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -121,16 +128,16 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index)=> {
+        {TimeLineData.map((item, index) => {
           <CarouselButton
             key={index}
             index={index}
             active={activeItem}
-            onClick={(e)=>handleClick(e, index)}
+            onClick={(e) => handleClick(e, index)}
             type="button"
           >
-            <CarouselButtonDot active={activeItem}/>
-          </CarouselButton>
+            <CarouselButtonDot active={activeItem} />
+          </CarouselButton>;
         })}
       </CarouselButtons>
       <SectionDivider></SectionDivider>

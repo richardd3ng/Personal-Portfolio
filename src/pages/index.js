@@ -1,6 +1,6 @@
 import Accomplishments from "../components/Accomplishments/Accomplishments";
 import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
-import Hero from "../components/Hero/Hero";
+import Profile from "../components/Profile/Profile";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <Layout>
       <Section grid>
-        <Hero />
+        <Profile />
         <BgAnimation />
       </Section>
       <Projects />
