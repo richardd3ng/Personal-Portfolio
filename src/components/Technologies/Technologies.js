@@ -18,7 +18,7 @@ import { TechnologiesDesription } from "../../constants/constants";
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>{TechnologiesDesription}</SectionText>
     <List>
       <ListItem>

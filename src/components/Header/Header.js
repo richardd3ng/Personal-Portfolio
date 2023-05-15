@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import {
   AiFillFacebook,
@@ -15,7 +14,6 @@ import {
   Div2,
   Div3,
   NavLink,
-  PortfolioIcon,
   SocialIcons,
   Span,
 } from "./HeaderStyles";
@@ -23,39 +21,30 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/" legacyBehavior>
-        <a
-          style={{
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-            marginBottom: "20px",
-          }}
-        >
-          <MdCatchingPokemon
-            size="2rem"
-            style={{ transform: "rotate(180deg)" }}
-          />
-          {/* <PortfolioIcon /> */}
-          <Span>Portfolio</Span>
-        </a>
-      </Link>
+      <a
+        style={{
+          display: "flex",
+          alignItems: "center",
+          color: "white",
+          marginBottom: "20px",
+        }}
+      >
+        <MdCatchingPokemon
+          size="2rem"
+          style={{ transform: "rotate(180deg)" }}
+        />
+        <Span>Portfolio</Span>
+      </a>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
+        <NavLink href="#projects">Projects</NavLink>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
+        <NavLink href="#tech">Technologies</NavLink>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
+        <NavLink href="#about">About</NavLink>
       </li>
     </Div2>
     <Div3>

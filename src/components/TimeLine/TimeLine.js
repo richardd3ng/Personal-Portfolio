@@ -26,13 +26,7 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    console.log(`node: ${node}`);
-    try {
-      node.scrollTo({ left, behavior: "smooth" });
-    } catch {
-      console.log("CAUGHT");
-      return null;
-    }
+    node.scrollTo({ left, behavior: "smooth" });
   };
 
   const handleClick = (e, i) => {
@@ -71,7 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>{AboutMeDescription}</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -140,7 +135,6 @@ const Timeline = () => {
           </CarouselButton>;
         })}
       </CarouselButtons>
-      <SectionDivider></SectionDivider>
     </Section>
   );
 };

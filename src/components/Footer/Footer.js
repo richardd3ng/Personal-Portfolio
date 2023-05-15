@@ -30,21 +30,19 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Social</LinkTitle>
-          <LinkItem href="mailto:richard.deng@duke.edu">
-            <SocialContainer>
-              <SocialIconsContainer>
-                <SocialIcons href="https://github.com">
-                  <AiFillGithub size="3rem"></AiFillGithub>
-                </SocialIcons>
-                <SocialIcons href="https://linkedin.com">
-                  <AiFillLinkedin size="3rem"></AiFillLinkedin>
-                </SocialIcons>
-                <SocialIcons href="https://linkedin.com">
-                  <AiFillInstagram size="3rem"></AiFillInstagram>
-                </SocialIcons>
-              </SocialIconsContainer>
-            </SocialContainer>
-          </LinkItem>
+          <SocialContainer>
+            <SocialIconsContainer>
+              <SocialIcons href="https://github.com">
+                <AiFillGithub size="3rem"></AiFillGithub>
+              </SocialIcons>
+              <SocialIcons href="https://linkedin.com">
+                <AiFillLinkedin size="3rem"></AiFillLinkedin>
+              </SocialIcons>
+              <SocialIcons href="https://linkedin.com">
+                <AiFillInstagram size="3rem"></AiFillInstagram>
+              </SocialIcons>
+            </SocialIconsContainer>
+          </SocialContainer>
         </LinkColumn>
       </LinkList>
     </FooterWrapper>

@@ -56,8 +56,6 @@ export const projects = [
         <a
           href="https://harvardgami.org"
           style={{ color: "blue" }}
-          onmouseover="style=text-decoration: underline'"
-          onmouseout="style='text-decoration:none'"
         >
           (GAMI)
         </a>
