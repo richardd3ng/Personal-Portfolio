@@ -3,7 +3,7 @@ import { Img } from "./BackgroundAnimationStyles";
 
 const BackgroundAnimation = () => (
   <div>
-    <Img src="/images/profile.jpg" />
+    <Img src="images/profile.jpg" />
 
     {/* <svg
       className="BgAnimation__svg"
