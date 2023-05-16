@@ -48,16 +48,16 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/richardd3ng">
         <AiFillGithub size="3rem"></AiFillGithub>
       </SocialIcons>
-      <SocialIcons href="www.linkedin.com/in/richard-deng1">
+      <SocialIcons href="https://linkedin.com/in/richard-deng1">
         <AiFillLinkedin size="3rem"></AiFillLinkedin>
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/richardd3ng">
+      <SocialIcons href="https://instagram.com/richardd3ng">
         <AiFillInstagram size="3rem"></AiFillInstagram>
       </SocialIcons>
-      <SocialIcons href="https://www.facebook.com/richard.deng.338">
+      <SocialIcons href="https://facebook.com/richard.deng.338">
         <AiFillFacebook size="3rem"></AiFillFacebook>
       </SocialIcons>
     </Div3>
