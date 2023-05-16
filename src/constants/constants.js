@@ -90,42 +90,42 @@ export const projects = [
     visit: "https://github.com/nyu12345/MusicMap",
     id: 3,
   },
-  {
-    title: "EcoEats",
-    description: (
-      <>
-        This is a hackathon project for HackDuke 2020. As a team of 5, we
-        developed a prototype Android app to estimate carbon emissions produced
-        from meals using camera snapshots and Firebase ML's image labeling API.
-        I implemented the camera, Google sign in page, and various other UI
-        components in Android Studio. Our project won the Wolfram Top30 award
-        for the top 30 hacks created at HackDuke 2020.
-      </>
-    ),
-    image: "/images/1.png",
-    tags: ["Android Studio", "Firebase"],
-    source: "https://github.com/BenCrespoDuke/HackDuke",
-    visit: "https://devpost.com/software/ecoeats-8vb6tg",
-    id: 0,
-  },
-  {
-    title: "Medic.AR",
-    description: (
-      <>
-        This is a hackathon project for Sigmahacks 3. As a team of 4, we created
-        a prototype iOS app to assist people in responding to first aid
-        emergencies using echoAR's augmented reality API and 3D models.
-        Implemented the AR visual displays and emergency phone call
-        functionality in Xcode. Our project won the Best Use of echoAR award of
-        SigmaHacks 3.
-      </>
-    ),
-    image: "/images/MedicAR_pic.png",
-    tags: ["XCode", "UIKit", "EchoAR"],
-    source: "https://github.com/jjang32/FirstAid",
-    visit: "https://devpost.com/software/medic-io",
-    id: 1,
-  },
+  // {
+  //   title: "EcoEats",
+  //   description: (
+  //     <>
+  //       This is a hackathon project for HackDuke 2020. As a team of 5, we
+  //       developed a prototype Android app to estimate carbon emissions produced
+  //       from meals using camera snapshots and Firebase ML's image labeling API.
+  //       I implemented the camera, Google sign in page, and various other UI
+  //       components in Android Studio. Our project won the Wolfram Top30 award
+  //       for the top 30 hacks created at HackDuke 2020.
+  //     </>
+  //   ),
+  //   image: "/images/1.png",
+  //   tags: ["Android Studio", "Firebase"],
+  //   source: "https://github.com/BenCrespoDuke/HackDuke",
+  //   visit: "https://devpost.com/software/ecoeats-8vb6tg",
+  //   id: 0,
+  // },
+//   {
+//     title: "Medic.AR",
+//     description: (
+//       <>
+//         This is a hackathon project for Sigmahacks 3. As a team of 4, we created
+//         a prototype iOS app to assist people in responding to first aid
+//         emergencies using echoAR's augmented reality API and 3D models.
+//         Implemented the AR visual displays and emergency phone call
+//         functionality in Xcode. Our project won the Best Use of echoAR award of
+//         SigmaHacks 3.
+//       </>
+//     ),
+//     image: "/images/MedicAR_pic.png",
+//     tags: ["XCode", "UIKit", "EchoAR"],
+//     source: "https://github.com/jjang32/FirstAid",
+//     visit: "https://devpost.com/software/medic-io",
+//     id: 1,
+//   },
 ];
 
 export const TechnologiesDesription = (
@@ -155,7 +155,7 @@ export const AboutMeDescription = (
 
 export const TimeLineData = [
   { year: 2020, text: "Started my journey at Duke University" },
-  { year: 2021, text: "Worked as a SWE intern at Mi-Corporation" },
+  { year: 2021, text: "Worked as a SWE intern at Mi-Corporation (acquired by Ideagen)" },
   { year: 2022, text: "Worked as a SWE intern at Meta" },
   { year: 2023, text: "Worked as a SWE Intern at Roblox" },
 ];
