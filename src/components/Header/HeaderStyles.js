@@ -166,7 +166,11 @@ export const SwitchInput = styled.input`
   position: absolute;
 
   &:checked + ${Switch} {
-    background: white;
+    background: linear-gradient(
+      90deg,
+      rgb(79, 251, 223) 0%,
+      rgb(196, 147, 255) 100%
+    );
 
     &:before {
       transform: translate(32px, -50%);

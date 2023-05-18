@@ -49,7 +49,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: ${(props) => props.theme.colors.projectDivider};
 `;
 
 export const Intro = styled.div`
@@ -86,7 +86,7 @@ export const ExternalLinks = styled.a`
   color: ${(props) => props.theme.colors.background1};
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
+  background: ${(props) => props.theme.colors.projectLinks};
   border-radius: 15px;
   transition: 0.5s;
   &:hover {

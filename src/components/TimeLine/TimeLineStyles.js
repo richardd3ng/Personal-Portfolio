@@ -111,7 +111,6 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
   color: ${(props) => props.theme.colors.timelineDescription};
   padding-right: 16px;
 
@@ -161,4 +160,8 @@ export const CarouselButtonDot = styled.div`
   margin: auto;
   width: 3px;
   height: 3px;
+`;
+
+export const TimelineStop = styled.stop`
+  stop-color: ${(props) => props.theme.colors.timelineStop};
 `;

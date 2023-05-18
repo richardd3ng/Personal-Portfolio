@@ -10,6 +10,7 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
+  TimelineStop,
 } from "./TimeLineStyles";
 import {
   Section,
@@ -106,12 +107,7 @@ const Timeline = () => {
                         y2="0.500295"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stopColor="white" />
-                        <stop
-                          offset="0.79478"
-                          stopColor="white"
-                          stopOpacity="0"
-                        />
+                        <TimelineStop></TimelineStop>
                       </linearGradient>
                     </defs>
                   </CarouselItemImg>

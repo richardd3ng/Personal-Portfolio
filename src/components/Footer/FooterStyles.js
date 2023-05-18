@@ -110,7 +110,7 @@ export const SocialContainer = styled.div`
 `;
 
 export const LinkList = styled.ul`
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid ${(props) => props.theme.colors.bottomLine};
   display: grid;
   grid-template-columns: repeat(3, minmax(85px, 220px));
   gap: 40px;
