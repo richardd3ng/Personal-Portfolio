@@ -17,13 +17,15 @@ export const projects = [
         each individual block, and concatenating all reconstructed blocks into a
         full image. The reconstruction algorithm involves fitting a
         Lasso-regularized model with Discrete Cosine Transform (DCT) basis
-        vectors as features.
+        vectors as features. My full project presentation slidedoc is linked
+        below in "More Info".
       </>
     ),
     image: "images/image_reconstruction.png",
     tags: ["Jupyter Notebook", "Scikit-learn"],
     source: "https://github.com/richardd3ng/Image-Reconstruction",
-    visit: "https://github.com/richardd3ng/Image-Reconstruction",
+    visit:
+      "https://drive.google.com/file/d/11J67qDyR_NhhdHdHkfjjw7S2bnsnNyMB/view?usp=sharing",
     id: 2,
   },
   {
@@ -37,7 +39,8 @@ export const projects = [
         individuals who lose the ability to perform normal motor functions. If
         neural signals can be accurately translated into true movement intents,
         BCI's can enable individuals to perform physical movements by simply
-        imagining them.
+        imagining them. My full project presentation slidedoc is linked below in
+        "More Info".
       </>
     ),
     image: "images/bci.png",
@@ -45,7 +48,7 @@ export const projects = [
     source:
       "https://github.com/richardd3ng/Brain-Computer-Interface-Movement-Decoding",
     visit:
-      "https://github.com/richardd3ng/Brain-Computer-Interface-Movement-Decoding",
+      "https://drive.google.com/file/d/10A1471-0mwlQAooUaTELKk4lPB6ori56/view?usp=sharing",
     id: 2,
   },
   {

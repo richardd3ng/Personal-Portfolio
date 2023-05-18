@@ -68,9 +68,11 @@ export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
+  color: ${(props) => props.theme.colors.sectionBody};
+
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: ${(props) => props.theme.colors.hover};
     opacity: 1;
     cursor: pointer;
   }
@@ -79,7 +81,7 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
+// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;
@@ -96,7 +98,7 @@ export const ContactDropDown = styled.button`
     outline: none;
   }
   &:hover {
-    color: #fff;
+    transform: scale(1.2);
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -127,11 +129,10 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
-  color: white;
+  color: ${(props) => props.theme.colors.socialIcons};
   border-radius: 50px;
   padding: 8px;
   &:hover {
-    background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
   }
@@ -155,7 +156,7 @@ export const Switch = styled.div`
     border-radius: 35px;
     top: 50%;
     left: 4px;
-    background: white;
+    background: ${(props) => props.theme.colors.themeSwitch};
     transform: translate(0, -50%);
   }
 `;
@@ -165,7 +166,7 @@ export const SwitchInput = styled.input`
   position: absolute;
 
   &:checked + ${Switch} {
-    background: red;
+    background: white;
 
     &:before {
       transform: translate(32px, -50%);
