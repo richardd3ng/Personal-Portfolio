@@ -48,7 +48,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Machine Learning</ListTitle>
           <ListParagraph>
-            Experience with ML libraries <br />
+            Experience with ML libraries, <br />
             Python Notebooks, and Data <br />
             Pipelines
           </ListParagraph>

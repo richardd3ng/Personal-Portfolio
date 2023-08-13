@@ -1,5 +1,4 @@
 import { IoIosArrowDropdown } from "react-icons/io";
-import { MdCatchingPokemon } from "react-icons/md";
 import styled from "styled-components";
 
 export const Container = styled.div`

@@ -17,7 +17,7 @@ const Profile = (props) => (
         I'm Richard
       </SectionTitle>
       <SectionText>{ProfileDescription}</SectionText>
-      <a href="https://drive.google.com/file/d/1t3EsD2M0x245vNh1Ijql_RS_gGXTuMrp/view?usp=sharing">
+      <a href="https://drive.google.com/file/d/1CvQ7HkQkLvLkt8O9_bkR5BdyDhiFkPbJ/view?usp=sharing">
         <Button>Full Resume</Button>
       </a>
     </LeftSection>

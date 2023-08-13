@@ -11,7 +11,7 @@ export const projects = [
     description: (
       <>
         This project explores the process of recovering digital images that
-        contain corrupted pixels using statistical learning approaches such as
+        contained corrupted pixels using statistical learning approaches such as
         regression and regularization. The general procedure involved dividing
         the corrupted image into blocks, reconstructing each individual block,
         and concatenating all reconstructed blocks into a full image. The
@@ -26,7 +26,7 @@ export const projects = [
     source: "https://github.com/richardd3ng/Image-Reconstruction",
     visit:
       "https://drive.google.com/file/d/11J67qDyR_NhhdHdHkfjjw7S2bnsnNyMB/view?usp=sharing",
-    id: 2,
+    id: 0,
   },
   {
     title: "Brain Computer Interface Movement Decoding",
@@ -49,7 +49,7 @@ export const projects = [
       "https://github.com/richardd3ng/Brain-Computer-Interface-Movement-Decoding",
     visit:
       "https://drive.google.com/file/d/10A1471-0mwlQAooUaTELKk4lPB6ori56/view?usp=sharing",
-    id: 2,
+    id: 1,
   },
   {
     title: "Nscribe",
@@ -112,7 +112,7 @@ export const projects = [
   //   tags: ["Android Studio", "Firebase"],
   //   source: "https://github.com/BenCrespoDuke/HackDuke",
   //   visit: "https://devpost.com/software/ecoeats-8vb6tg",
-  //   id: 0,
+  //   id: 4,
   // },
   //   {
   //     title: "Medic.AR",
@@ -130,7 +130,7 @@ export const projects = [
   //     tags: ["XCode", "UIKit", "EchoAR"],
   //     source: "https://github.com/jjang32/FirstAid",
   //     visit: "https://devpost.com/software/medic-io",
-  //     id: 1,
+  //     id: 5,
   //   },
 ];
 
@@ -145,17 +145,17 @@ export const TechnologiesDesription = (
 export const AboutMeDescription = (
   <>
     Hi there! I'm a Senior at Duke University studying Computer Science and
-    Electrical/Computer Engineering . Although I've spent the last few years in
+    Electrical/Computer Engineering. Although I've spent the last few years in
     North Carolina, I originally grew up in the Bay Area, where my interest in
     technology was sparked from an early age. Through my classes and
-    extracurriculars, I've had the opportunity to work on a variety of exciting
+    extracurriculars, I've had the opportunity to work on a plethora of exciting
     projects, from developing mobile applications to applying novel ML solutions
     to ongoing problems. I've also gained valuable experience through
-    internships at variety of tech companies, where I've had the chance to
+    internships at a variety of tech companies, where I've had the chance to
     collaborate with talented engineers and learn about the latest industry
-    trends and practices. When I'm not coding, you can usually find me working
-    out, playing spikeball with friends, experimenting with healthy recipes in
-    the kitchen, or traveling to explore new places!
+    trends and practices. When I'm not coding, you can find me working out,
+    playing spikeball with friends, experimenting with healthy recipes in the
+    kitchen, or traveling to explore new places!
   </>
 );
 

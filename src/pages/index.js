@@ -1,4 +1,3 @@
-import Accomplishments from "../components/Accomplishments/Accomplishments";
 import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
 import Profile from "../components/Profile/Profile";
 import Projects from "../components/Projects/Projects";
