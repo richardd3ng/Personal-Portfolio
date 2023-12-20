@@ -7,25 +7,26 @@ export const ProfileDescription = (
 
 export const projects = [
   {
-    title: "Image Reconstruction",
+    title: "GAN Research Project",
     description: (
       <>
-        This project explores the process of recovering digital images that
-        contained corrupted pixels using statistical learning approaches such as
-        regression and regularization. The general procedure involved dividing
-        the corrupted image into blocks, reconstructing each individual block,
-        and concatenating all reconstructed blocks into a full image. The
-        reconstruction algorithm revolves around fitting a Lasso-regularized
-        model with Discrete Cosine Transform (DCT) basis vectors as features. To
-        learn more, my full presentation slidedoc is linked below in "More
-        Info."
+        A Generative Adversarial Network (GAN) is a type of AI model designed to
+        generate new, realistic data by learning patterns from existing data.
+        This research project creates 3 GAN variants for CIFAR-10 image
+        generation and evaluates their strengths and limiations. The first GAN
+        is a WGAN-GP that uses the Wasserstein Distance loss to address training
+        stability and mode collapse issues. The second GAN is an AC-GAN that
+        introduces an auxiliary classifier to generate labeled images. The third
+        GAN is a hybrid "WAC-GAN-GP" combining the benefits of labeled data
+        generation with training stability. Applying WAC-GAN-GP to CIFAR-10 is
+        novel."
       </>
     ),
-    image: "images/image-reconstruction.png",
-    tags: ["Jupyter Notebook", "Scikit-learn"],
-    source: "https://github.com/richardd3ng/Image-Reconstruction",
+    image: "images/gan.png",
+    tags: ["PyTorch", "Google CoLab"],
+    source: "https://github.com/richardd3ng/GAN-project",
     visit:
-      "https://drive.google.com/file/d/11J67qDyR_NhhdHdHkfjjw7S2bnsnNyMB/view?usp=sharing",
+      "https://drive.google.com/file/d/1YmP5rwYGW8qqQvK5N8Kp09dRA0kISU0Q/view?usp=sharing",
     id: 0,
   },
   {
