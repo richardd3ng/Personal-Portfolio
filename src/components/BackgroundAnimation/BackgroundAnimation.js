@@ -2,10 +2,10 @@ import React from "react";
 import { Img } from "./BackgroundAnimationStyles";
 
 const BackgroundAnimation = () => (
-  <div>
-    <Img src="images/profile.jpg" />
+    <div>
+        <Img src="images/profile.png" />
 
-    {/* <svg
+        {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -362,7 +362,7 @@ const BackgroundAnimation = () => (
         </linearGradient>
       </defs>
     </svg> */}
-  </div>
+    </div>
 );
 
 export default BackgroundAnimation;

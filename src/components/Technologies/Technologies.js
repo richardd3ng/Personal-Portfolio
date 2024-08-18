@@ -38,7 +38,8 @@ const Technologies = () => (
                     <ListTitle>Back-End</ListTitle>
                     <ListParagraph>
                         Experience with <br />
-                        Node, SQL, and databases <br />
+                        REST, GraphQL, Express, <br />
+                        SQL, and databases
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -61,7 +62,8 @@ const Technologies = () => (
                     <ListTitle>Mobile</ListTitle>
                     <ListParagraph>
                         Experience with app development <br />
-                        on iOS and Android platforms
+                        on native iOS and Android, <br />
+                        as well as React Native
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
